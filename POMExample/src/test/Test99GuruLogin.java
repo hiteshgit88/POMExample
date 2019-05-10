@@ -21,7 +21,7 @@ public class Test99GuruLogin {
 	public void setup(){
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.get("http://demo.guru99.com/V4/");
+		driver.get("http://demo.guru99.com/V4");
 	}
 
 	/**
